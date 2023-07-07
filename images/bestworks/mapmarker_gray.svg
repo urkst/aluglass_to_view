@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2.9538mm" height="3.9688mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 275 369"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:none}
+    .fil0 {fill:#D9DADA}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M0 0l275 0 0 369 -275 0 0 -369z"/>
+   </clipPath>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g>
+    <path class="fil0" d="M137 49c2,7 3,15 3,22 0,49 -40,88 -88,88 -49,0 -88,-40 -88,-88 0,-28 13,-55 36,-71 0,4 2,28 41,87 10,-13 22,-29 33,-46 52,-76 54,-105 54,-108 29,15 48,45 48,78 0,49 -40,88 -88,88 -49,0 -88,-40 -88,-88 0,-4 0,-8 1,-12l137 49zm-9 -165c76,0 137,62 137,137 9,191 -126,348 -128,348l0 0c1,-4 -137,-156 -137,-232 0,-76 62,-137 137,-137l-9 -116z"/>
+   </g>
+  </g>
+  <polygon class="fil1" points="0,0 275,0 275,369 0,369 "/>
+ </g>
+</svg>

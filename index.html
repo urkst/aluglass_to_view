@@ -1,0 +1,2546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AluGlass</title>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#326776">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- подключение шрифтов ROBOTO от Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- подключение шрифтов Raleway от Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="libs/micromodal/micromodal.css">
+    <!-- подключение normalize.css - для нормализации сайта в разных браузерах -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- swiper -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" /> -->
+    <!-- animate -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- стили -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- окошко благодарности -->
+    <link rel="stylesheet" href="css/sweetalert.min.css">
+    <!-- <link rel="SHORTCUT ICON" href="/favicon.ico" type="image/x-icon"> -->
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="navbar navbar-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-6">
+                        <a href="/index.html" class="logo">
+                            <img src="images/menu/logo_.svg" alt="logo" class="logo-image" />
+                        </a>
+                    </div>
+                    <div class="col-md-10 col-lg-7 col-6 menu-container">
+                        <i class="menu-toggle"></i>
+                        <nav class="navbar-menu">
+                            <ul class="top-menu">
+                                <li class="top-menu-item">
+                                    <a href="#home" class="top-menu-link">Главная</a>
+                                </li>
+                                <li class="top-menu-item">
+                                    <a href="#project" class="top-menu-link">Проекты</a>
+                                </li>
+                                <li class="top-menu-item">
+                                    <a href="#advantages" class="top-menu-link">Компания</a>
+                                </li>
+                                <li class="top-menu-item">
+                                    <a href="#services" class="top-menu-link">Услуги</a>
+                                </li>
+                                <!-- <li class="top-menu-item">
+									<a href="#gallery" class="top-menu-link">Галерея</a>
+								</li> -->
+                                <li class="top-menu-item">
+                                    <a href="#contacts" class="top-menu-link">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-3 d-none d-lg-block navbar-order-wrap">
+                        <div class="navbar-order">
+                            <div class="navbar-order-text">Получить консультацию:</div>
+                            <div class="navbar-order-tell-block">
+                                <a href="tel:+380953688308" class="navbar-order-tell">+38 (095) 368-83-08</a>
+                            </div>
+                        </div>
+                        <!-- /.navbar-order -->
+                    </div>
+                </div>
+
+                <!-- <div class="social-group">
+				<a href="#" class="social-item">
+					<img src="/images/social/instagram.svg" alt="instagram-logo" class="social-img" />
+				</a>
+				<a href="#" class="social-item">
+					<img src="/images/social/facebook.svg" alt="facebook-logo" class="social-img" />
+				</a>
+				<a href="#" class="social-item">
+					<img src="/images/social/telegram.svg" alt="telegram-logo" class="social-img" />
+				</a>
+			</div> -->
+                <!-- /.social-group -->
+            </div>
+        </div>
+
+    </header>
+    <!-- /.header -->
+
+    <main class="main">
+
+        <section id="home" class="home-slider">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide home-slider__slide home-slider-bg-img__1">
+                    <div class="container">
+                        <h2 data-animate="bottom" class="home-slider__heading">Изделия из алюминия</h2>
+                        <p data-animate="bottom" class="home-slider__slogan">cборка и установка любой сложности</p>
+                        <p data-animate="bottom" class="home-slider__text">Создание комфортных условий жизни - миссия
+                            компании AluGlass. Мы
+                            реализуем концепцию строительства, ремонта и
+                            обустройства жилья с минимальными издержками для наших клиентов и для нас.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide home-slider__slide home-slider-bg-img__2">
+                    <div class="container">
+                        <h2 data-animate="bottom" class="home-slider__heading">Изделия из металла </h2>
+                        <p data-animate="bottom" class="home-slider__slogan">cборка и установка любой сложности</p>
+                        <p data-animate="bottom" class="home-slider__text">Создание комфортных условий жизни - миссия
+                            компании AluGlass. Мы
+                            реализуем концепцию строительства, ремонта и
+                            обустройства жилья с минимальными издержками для наших клиентов и для нас.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide home-slider__slide home-slider-bg-img__3">
+                    <div class="container">
+                        <h2 data-animate="bottom" class="home-slider__heading">Изделия из нержавеющей стали</h2>
+                        <p data-animate="bottom" class="home-slider__slogan">cборка и установка любой сложности</p>
+                        <p data-animate="bottom" class="home-slider__text">Создание комфортных условий жизни - миссия
+                            компании AluGlass. Мы
+                            реализуем концепцию строительства, ремонта и
+                            обустройства жилья с минимальными издержками для наших клиентов и для нас.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide home-slider__slide home-slider-bg-img__4">
+                    <div class="container">
+                        <h2 data-animate="bottom" class="home-slider__heading">Изделия из стекла </h2>
+                        <p data-animate="bottom" class="home-slider__slogan">cборка и установка любой сложности</p>
+                        <p data-animate="bottom" class="home-slider__text">Создание комфортных условий жизни - миссия
+                            компании AluGlass. Мы
+                            реализуем концепцию строительства, ремонта и
+                            обустройства жилья с минимальными издержками для наших клиентов и для нас.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- swiper-wrapper -->
+            <!-- <div class="dots-wrapper">
+				<span class="dot active"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+			</div> -->
+            <div class="row home-slider__bottom">
+                <div class="col-3 home-slider__pogination-wrapper">
+                    <div class="home-slider__pogination swiper-pogination"></div>
+                </div>
+                <div class="col-6">
+                    <div class="home-siler__scrollbar swiper-scrollbar"></div>
+                </div>
+                <div class="col-3 home-slider__nav">
+                    <div class="home-slider__prev swiper-button-prev"></div>
+                    <div class="home-slider__next swiper-button-next"></div>
+                </div>
+            </div>
+
+        </section>
+        <!-- /.home-slider -->
+
+        <!-- <section id="home_" class="sect-home-slider">
+			<div class="slide active home-background home-img-1">
+				<div class="slider-container">
+					<div class="home-content">
+						<h2 class="home-head">Изделия из алюминия</h2>
+						<p class="home-slogan">Сборка и установка любой сложности</p>
+						<p class="home-text">Создание комфортных условий жизни - миссия компании AluGlass. Мы реализуем
+							концепцию строительства, ремонта и обустройства жилья с минимальными издержками для нас и
+							наших клиентов.</p>
+					</div>
+				</div>
+			</div>
+			<div class="slide home-background home-img-2">
+				<div class="slider-container">
+					<div class="home-content">
+						<h2 class="home-head">Изделия из металла</h2>
+						<p class="home-slogan">Сборка и установка любой сложности</p>
+						<p class="home-text">Создание комфортных условий жизни - миссия компании AluGlass. Мы реализуем
+							концепцию строительства, ремонта и обустройства жилья с минимальными издержками для нас и
+							наших клиентов.</p>
+					</div>
+				</div>
+			</div>
+			<div class="slide home-background home-img-3">
+				<div class="slider-container">
+					<div class="home-content">
+						<h2 class="home-head">Изделия из нержавеющей стали</h2>
+						<p class="home-slogan">Сборка и установка любой сложности</p>
+						<p class="home-text">Создание комфортных условий жизни - миссия компании AluGlass. Мы реализуем
+							концепцию строительства, ремонта и обустройства жилья с минимальными издержками для нас и
+							наших клиентов.</p>
+					</div>
+				</div>
+			</div>
+			<div class="slide home-background home-img-4">
+				<div class="slider-container">
+					<div class="home-content">
+						<h2 class="home-head">Изделия из стекла</h2>
+						<p class="home-slogan">Сборка и установка любой сложности</p>
+						<p class="home-text">Создание комфортных условий жизни - миссия компании AluGlass. Мы реализуем
+							концепцию строительства, ремонта и обустройства жилья с минимальными издержками для нас и
+							наших клиентов.</p>
+					</div>
+				</div>
+			</div>
+
+			<div id="btn-prev"></div>
+			<div id="btn-next"></div>
+			<div class="dots-wrapper">
+				<span class="dot active"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+			</div>
+		</section> -->
+        <!-- /sect-home-slider -->
+
+
+        <section id="callback" class="sect-home-callback">
+
+            <div class="container sect-home-callback-width">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-6">
+                        <h3 class="sect-home-callback__header">НАМ ДОВЕРЯЮТ</h3>
+                        <ul class="sect-home-callback__list">
+                            <li>120 клиентов по всему миру</li>
+                            <li>12 надежных партнера</li>
+                            <li>11 поставщиков</li>
+                            <li>13 лучших франчайзи</li>
+                            <li>27 производителей</li>
+                            <li>20 сотрудников</li>
+                            <li>120 клиентов по всему миру</li>
+                            <li>12 надежных партнера</li>
+                            <li>11 поставщиков</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 sect-home-callback__text-right">
+                        <p>Перезвоните нам или оставте заявку с сайта. <br>
+                            Мы перезвоним вам в течении 10 минут.</p>
+                        <a href="tel:+380953688308" class="phone-big home-callback__phone" title="Позвонить...">+38
+                            (095) 368-83-08</a>
+                        <a href="mailto:ddaodessa@gmail.com" class="home-callback__mail"
+                            title="Написать...">ddaodessa@gmail.com</a>
+                        <button class="button home-callback__button" data-custom-open="modal"
+                            data-form="Форма секции Нам доверяют">ЗАКАЗАТЬ
+                            КОНСУЛЬТАЦИЮ</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- /.sect-home-callback -->
+
+        <!-- <section class="sect-trust">
+			<div class="sect-trust-width">
+				<div class="blocks-trust">
+					<div class="block-trust-text">
+						<h4>НАМ ДОВЕРЯЮТ</h4>
+						<hr>
+						<div class="trust-text-container">
+							<div class="text-container">
+								<p class="trust-text"><span>120</span> клиентов по всему миру</p>
+								<p class="trust-text"><span>12</span> надежных партнера</p>
+								<p class="trust-text"><span>11</span> поставщиков</p>
+							</div>
+							<div class="text-container">
+								<p class="trust-text"><span>13</span> лучших франчайзи</p>
+								<p class="trust-text"><span>27</span> производителей</p>
+								<p class="trust-text"><span>20</span> сотрудников</p>
+							</div>
+							<div class="text-container">
+								<p class="trust-text"><span>120</span> клиентов по всему миру</p>
+								<p class="trust-text"><span>12</span> надежных партнера</p>
+								<p class="trust-text"><span>11</span> поставщиков</p>
+							</div>
+						</div>
+					</div>
+					<div class="block-order block-order-items">
+						<p class="order-text">Перезвоните нам или оставте заявку с сайта.
+							Мы перезвоним вам в течении 20 минут.</p>
+						<a href="tel:+380953688308" class="order-tell">+38 (095) 368-83-08</a>
+						<a href="mailto:ddaodessa@gmail.com" class="order-mail">ddaodessa@gmail.com</a>
+						<a class="order-btn">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</a>
+					</div>
+				</div>
+			</div>
+		</section> -->
+        <!-- /.sect-trust -->
+
+
+        <section id="project" class="best-works">
+
+            <div class="best-works__top">
+                <div class="container">
+                    <div class="row">
+                        <h3 class="col-12 best-works__top-title">Реализованные проекты</h3>
+                        <div class="col-xl-10 offset-xl-1 col-lg-12 best-works__top-wrapper">
+                            <div class="best-works__left">
+                                Представляем вам примеры работ нашей команды с любовью и заботой о клиентах. Портфолио
+                                позволит вам выбрать интересующий
+                                стиль, цвет, фактуру, дизайн и расположения элементов.
+                            </div>
+                            <div class="best-works__right">
+                                <div class="section-title">
+                                    <div class="section-title__name animated">
+                                        примеры работ
+                                    </div>
+                                    <h4 class="section-title__desc">Создаем теплую атмосферу вашей жизни</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="best-works__bottom">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 best-works__item-wrapper">
+                            <a data-best-item-img="01" class="best-item">
+                                <div class="best-item__img-wrapper">
+                                    <img src="images/bestworks/bestworks-img-1.jpg" alt="bestworks-img-1"
+                                        class="best-item__img">
+                                </div>
+                                <div class="best-item__content">
+                                    <div class="address-line" title="Адрес обьекта...">
+                                        <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_654_71)">
+                                                <path
+                                                    d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39688 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                    fill="#E4E4E4" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_654_71">
+                                                    <rect width="12" height="16.1233" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+
+                                        Адрес обьекта: (город, улица,
+                                        название обьекта, краткое описание)
+                                    </div>
+                                    <div class="best-item__desc">Заголовок работы, что сделано, что за обьект</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 best-works__item-wrapper">
+                            <a data-best-item-img="02" class="best-item">
+                                <div class="best-item__img-wrapper">
+                                    <img src="images/bestworks/bestworks-img-2.jpg" alt="bestworks-img-2"
+                                        class="best-item__img">
+                                </div>
+                                <div class="best-item__content">
+                                    <div class="address-line" title="Адрес обьекта...">
+                                        <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_654_71)">
+                                                <path
+                                                    d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39688 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                    fill="#E4E4E4" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_654_71">
+                                                    <rect width="12" height="16.1233" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+
+                                        Адрес обьекта: (город, улица,
+                                        название обьекта, краткое описание)
+                                    </div>
+                                    <div class="best-item__desc">Заголовок работы, какая работа проведена, за какой
+                                        период, что за обьект, какой материал использовался</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 best-works__item-wrapper">
+                            <a data-best-item-img="03" class="best-item">
+                                <div class="best-item__img-wrapper">
+                                    <img src="images/bestworks/bestworks-img-3.jpg" alt="bestworks-img-3"
+                                        class="best-item__img">
+                                </div>
+                                <div class="best-item__content">
+                                    <div class="address-line" title="Адрес обьекта...">
+                                        <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_654_71)">
+                                                <path
+                                                    d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39688 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                    fill="#E4E4E4" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_654_71">
+                                                    <rect width="12" height="16.1233" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+
+                                        Адрес обьекта: (город, улица,
+                                        название обьекта, краткое описание)
+                                    </div>
+                                    <div class="best-item__desc">Заголовок работы, что сделано, что за обьект</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="best-works__button-wrapper">
+                    <!-- <a href="#advantages" class="button">
+						<span class="button__text">Загрузить еще</span>
+					</a> -->
+                    <button class="button best-works__button-wrapper-btn">
+                        <span class="button__text">Загрузнуть ещё</span>
+                    </button>
+                </div>
+
+                <div class="best-works__items-list">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 best-works__item-wrapper">
+                                <a data-best-item-img="04" class="best-item">
+                                    <div class="best-item__img-wrapper">
+                                        <img src="images/bestworks/bestworks-img-4.jpg" alt="bestworks-img-3">
+                                    </div>
+                                    <div class="best-item__content">
+                                        <div class="address-line" title="Адрес обьекта...">
+                                            <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_654_71)">
+                                                    <path
+                                                        d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39688 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                        fill="#E4E4E4" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_654_71">
+                                                        <rect width="12" height="16.1233" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+
+                                            Адрес обьекта: (город, улица,
+                                            название обьекта, краткое описание)
+                                        </div>
+                                        <div class="best-item__desc">Заголовок работы, какая работа проведена, за какой
+                                            период, что за обьект, какой материал использовался</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4 best-works__item-wrapper">
+                                <a data-best-item-img="05" class="best-item">
+                                    <div class="best-item__img-wrapper">
+                                        <img src="images/bestworks/bestworks-img-5.jpg" alt="bestworks-img-5">
+                                    </div>
+                                    <div class="best-item__content">
+                                        <div class="address-line" title="Адрес обьекта...">
+                                            <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_654_71)">
+                                                    <path
+                                                        d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39688 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                        fill="#E4E4E4" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_654_71">
+                                                        <rect width="12" height="16.1233" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+
+                                            Адрес обьекта: (город, улица,
+                                            название обьекта, краткое описание)
+                                        </div>
+                                        <div class="best-item__desc">Заголовок работы, какая работа проведена, за какой
+                                            период, что за обьект, какой материал использовался</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4 best-works__item-wrapper">
+                                <a data-best-item-img="06" class="best-item">
+                                    <div class="best-item__img-wrapper">
+                                        <img src="images/bestworks/bestworks-img-6.jpg" alt="bestworks-img-6">
+                                    </div>
+                                    <div class="best-item__content">
+                                        <div class="address-line" title="Адрес обьекта...">
+                                            <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_654_71)">
+                                                    <path
+                                                        d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39688 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                        fill="#E4E4E4" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_654_71">
+                                                        <rect width="12" height="16.1233" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+
+                                            Адрес обьекта: (город, улица,
+                                            название обьекта, краткое описание)
+                                        </div>
+                                        <div class="best-item__desc">Заголовок работы, что сделано, что за обьект</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 best-works__item-wrapper">
+                                <a data-best-item-img="07" class="best-item">
+                                    <div class="best-item__img-wrapper">
+                                        <img src="images/bestworks/bestworks-img-7.jpg" alt="bestworks-img-7">
+                                    </div>
+                                    <div class="best-item__content">
+                                        <div class="address-line" title="Адрес обьекта...">
+                                            <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_654_71)">
+                                                    <path
+                                                        d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39688 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                        fill="#E4E4E4" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_654_71">
+                                                        <rect width="12" height="16.1233" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+
+                                            Адрес обьекта: (город, улица,
+                                            название обьекта, краткое описание)
+                                        </div>
+                                        <div class="best-item__desc">Заголовок работы, какая работа проведена, что за
+                                            обьект
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4 best-works__item-wrapper">
+                                <a data-best-item-img="08" class="best-item">
+                                    <div class="best-item__img-wrapper">
+                                        <img src="images/bestworks/bestworks-img-8.jpg" alt="bestworks-img-8">
+                                    </div>
+                                    <div class="best-item__content">
+                                        <div class="address-line" title="Адрес обьекта...">
+                                            <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_654_71)">
+                                                    <path
+                                                        d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39688 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                        fill="#E4E4E4" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_654_71">
+                                                        <rect width="12" height="16.1233" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+
+                                            Адрес обьекта: (город, улица,
+                                            название обьекта, краткое описание)
+                                        </div>
+                                        <div class="best-item__desc">Заголовок работы, какая работа проведена, за какой
+                                            период, что за обьект, какой материал использовался</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4 best-works__item-wrapper">
+                                <a data-best-item-img="09" class="best-item">
+                                    <div class="best-item__img-wrapper">
+                                        <img src="images/bestworks/bestworks-img-9.jpg" alt="bestworks-img-9">
+                                    </div>
+                                    <div class="best-item__content">
+                                        <div class="address-line" title="Адрес обьекта...">
+                                            <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_654_71)">
+                                                    <path
+                                                        d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39688 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                        fill="#E4E4E4" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_654_71">
+                                                        <rect width="12" height="16.1233" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+
+                                            Адрес обьекта: (город, улица,
+                                            название обьекта, краткое описание)
+                                        </div>
+                                        <div class="best-item__desc">Заголовок работы, какая работа проведена, за какой
+                                            период, что за обьект, какой материал использовался</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 best-works__item-wrapper">
+                                <a data-best-item-img="10" class="best-item">
+                                    <div class="best-item__img-wrapper">
+                                        <img src="images/bestworks/bestworks-img-10.jpg" alt="bestworks-img-10">
+                                    </div>
+                                    <div class="best-item__content">
+                                        <div class="address-line" title="Адрес обьекта...">
+                                            <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_654_71)">
+                                                    <path
+                                                        d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39688 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                        fill="#E4E4E4" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_654_71">
+                                                        <rect width="12" height="16.1233" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+
+                                            Адрес обьекта: (город, улица,
+                                            название обьекта, краткое описание)
+                                        </div>
+                                        <div class="best-item__desc">Заголовок работы, какая работа проведена, что за
+                                            обьект
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4 best-works__item-wrapper">
+                                <a data-best-item-img="11" class="best-item">
+                                    <div class="best-item__img-wrapper">
+                                        <img src="images/bestworks/bestworks-img-11.jpg" alt="bestworks-img-11">
+                                    </div>
+                                    <div class="best-item__content">
+                                        <div class="address-line" title="Адрес обьекта...">
+                                            <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_654_71)">
+                                                    <path
+                                                        d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39688 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                        fill="#E4E4E4" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_654_71">
+                                                        <rect width="12" height="16.1233" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+
+                                            Адрес обьекта: (город, улица,
+                                            название обьекта, краткое описание)
+                                        </div>
+                                        <div class="best-item__desc">Заголовок работы, какая работа проведена, что за
+                                            обьект
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4 best-works__item-wrapper">
+                                <a data-best-item-img="12" class="best-item">
+                                    <div class="best-item__img-wrapper">
+                                        <img src="images/bestworks/bestworks-img-12.jpg" alt="bestworks-img-1">
+                                    </div>
+                                    <div class="best-item__content">
+                                        <div class="address-line" title="Адрес обьекта...">
+                                            <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_654_71)">
+                                                    <path
+                                                        d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39688 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                        fill="#E4E4E4" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_654_71">
+                                                        <rect width="12" height="16.1233" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+
+                                            Адрес обьекта: (город, улица,
+                                            название обьекта, краткое описание)
+                                        </div>
+                                        <div class="best-item__desc">Заголовок работы, какая работа проведена, что за
+                                            обьект
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="best-works__button-wrapper-close">
+                    <!-- <a href="#" class="button">
+						<span class="button__text">Закрыть</span>
+					</a> -->
+                    <a href="#project" class="button best-works__button-wrapper-close-btn">
+                        <span class="button__text">Закрыть</span>
+                    </a>
+                    <!-- <button class="button best-works__button-wrapper-close-btn">
+                        <span class="button__text">Закрыть</span>
+                    </button> -->
+                </div>
+
+            </div>
+
+        </section>
+        <!-- /.best-works -->
+
+
+        <section id="advantages" class="sect-advantages">
+            <div class="container">
+                <div class="row">
+
+                    <h3 class="col-12 advantages__top-title">О компании</h3>
+
+                    <div class="col-md-6 advantages-slider-wrapper">
+
+                        <div class="advantages-slider">
+
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="images/advantages/adv_img_1.jpg" alt="adv_img_1">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/advantages/adv_img_2.jpg" alt="adv_img_2">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/advantages/adv_img_3.jpg" alt="adv_img_3">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/advantages/adv_img_4.jpg" alt="adv_img_4">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/advantages/adv_img_5.jpg" alt="adv_img_5">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/advantages/adv_img_6.jpg" alt="adv_img_6">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/advantages/adv_img_7.jpg" alt="adv_img_7">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/advantages/adv_img_8.jpg" alt="adv_img_8">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/advantages/adv_img_9.jpg" alt="adv_img_9">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/advantages/adv_img_10.jpg" alt="adv_img_10">
+                                </div>
+                            </div>
+
+                            <div class="advantages-slider__caption">16 <span>лет <br>на рынке</span></div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6 advantages-text-wrapper">
+                        <div class="section-title section-title--dotted item-advantages-text">
+                            <div class="section-title__name animated">
+                                коротко о нас
+                            </div>
+                            <h4 class="section-title__desc">Проектируем и создаем экологичный комфорт</h4>
+                            <div class="section-title__paragraf-block">
+                                <p class="section-title__paragraf">
+                                    Компания начала свою деятельность в <span>2006</span> году
+                                    . За это время накопили огромный опыт по созданию проектов по всей территории
+                                    Украины
+                                    .</p>
+
+                                <p class="section-title__paragraf-text">С <span>2016</span> года компания активно и с
+                                    успехом осваивает зарубежные рынки.
+                                    Все конструкции изготавливаются на собственных производственных мощностях с
+                                    использованием комплектующих компаний-партнеров. В работе используются только лучшие
+                                    материалы на рынке по доступным ценам.</p>
+
+                                <p class="section-title__paragraf-text">В штате компании состоят сертифицированные
+                                    конструктора с громадным опытом, знаниями и навыками, Cпециалисты компании учтут все
+                                    ваши пожелания и предложат на выбор варианты готовых решений. Наши клиенты останются
+                                    довольны результатом работы.</p>
+
+                                <p class="section-title__paragraf-text">Компания гарантирует качество предоставляемых
+                                    услуг и работ в установленные договарами сроки.</p>
+
+                                <p class="section-title__paragraf-text">Свяжитесь с нами, и мы претворим вашу идею в
+                                    жизнь.</p>
+                            </div>
+                            <a class="read-more section-title__text-more">Подробнее</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- /.sect-advantages -->
+
+
+        <section id="services" class="sect-services">
+
+            <div class="sect-services__top">
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 services__top-title">
+                            <h3 class="services__top-title-name">Наши услуги</h3>
+                            <div class="line animated">
+                                <hr>
+                            </div>
+                            <h4 class="services__top-title-slogan">Собираем и устанавливаем конструкции из алюминиевых и
+                                цельностеклянных изделий любой сложности</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="sect-services__bottom">
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-6 services-list">
+                            <div id="services_doors" class="services-item">
+                                <div class="services-item__content">
+                                    <div class="services-item__content-description">
+                                        <svg width="3" height="20" viewBox="0 0 3 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="3" height="20" fill="#F88500" />
+                                        </svg>
+                                        Алюминиевые окна и двери
+                                    </div>
+                                </div>
+                                <div class="services-item__img-wrapper">
+                                    <img src="images/services/services_1.jpg" alt="services_2">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 services-list">
+                            <div id="services_aluminum_facades" class="services-item">
+                                <div class="services-item__content">
+                                    <div class="services-item__content-description">
+                                        <svg width="3" height="20" viewBox="0 0 3 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="3" height="20" fill="#F88500" />
+                                        </svg>
+                                        Алюминиевые фасады
+                                    </div>
+                                </div>
+                                <div class="services-item__img-wrapper">
+                                    <img src="images/services/services_7.jpg" alt="services_7">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 services-list">
+                            <div id="services_ventilated_facades" class="services-item">
+                                <div class="services-item__content">
+                                    <div class="services-item__content-description">
+                                        <svg width="3" height="20" viewBox="0 0 3 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="3" height="20" fill="#F88500" />
+                                        </svg>
+                                        Вентилируемые фасады
+                                    </div>
+                                </div>
+                                <div class="services-item__img-wrapper">
+                                    <img src="images/services/services_3.jpg" alt="services_3">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 services-list">
+                            <div id="services_glass_facades" class="services-item">
+                                <div class="services-item__content">
+                                    <div class="services-item__content-description">
+                                        <svg width="3" height="20" viewBox="0 0 3 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="3" height="20" fill="#F88500" />
+                                        </svg>
+                                        Фасады из стекла
+                                    </div>
+                                </div>
+                                <div class="services-item__img-wrapper">
+                                    <img src="images/services/services_4.jpg" alt="services_4">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 services-list">
+                            <div id="services_glass" class="services-item">
+                                <div class="services-item__content">
+                                    <div class="services-item__content-description">
+                                        <svg width="3" height="20" viewBox="0 0 3 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="3" height="20" fill="#F88500" />
+                                        </svg>
+                                        Изделия из каленого стекла
+                                    </div>
+                                </div>
+                                <div class="services-item__img-wrapper">
+                                    <img src="images/services/services_5.jpg" alt="services_5">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 services-list">
+                            <div id="services_perilnoe" class="services-item">
+                                <div class="services-item__content">
+                                    <div class="services-item__content-description">
+                                        <svg width="3" height="20" viewBox="0 0 3 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="3" height="20" fill="#F88500" />
+                                        </svg>
+                                        Перильные ограждения
+                                    </div>
+                                </div>
+                                <div class="services-item__img-wrapper">
+                                    <img src="images/services/services_6.jpg" alt="services_6">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="services__button-wrapper">
+                    <!-- <a href="#advantages" class="button">
+										<span class="button__text">Загрузить еще</span>
+									</a> -->
+                    <!-- <button class="button best-works__button-wrapper-btn">
+						<span class="button__text">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</span>
+					</button> -->
+
+                    <button class="button services__button" data-custom-open="modal"
+                        data-form="Форма секции Наши услуги">ЗАКАЗАТЬ
+                        КОНСУЛЬТАЦИЮ</button>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- /.sect-services -->
+
+
+        <section id="how-work" class="sect-how-work">
+
+            <div class="sect-how-work__top">
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 how-work__top-title">
+                            <h3 class="how-work__top-title-name">Как работаем</h3>
+                            <div class="line animated">
+                                <hr>
+                            </div>
+                            <h4 class="how-work__top-title-slogan">С нами вы можете не беспокоится о качестве и
+                                долговечной эксплуатации установленных конструкций.</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="sect-how-work__bottom">
+
+                <div class="container">
+
+                    <div class="how-work-item__content-left animated">
+
+                        <div class="how-work-item__img-wrapper">
+                            <img src="images/how-work/how-work-1.png" alt="how-work-1">
+                        </div>
+
+                        <div class="how-work-item__content-description">
+                            <h5 class="how-work-item__content-description-title">
+                                Бесплатная консультация
+                            </h5>
+                            <p class="how-work-item__content-description-text">Мы предоставляем бесплатную
+                                консультацию по всем видам услуг, которые предоставляет компания. Поможем
+                                взвесить все плюсы
+                                и минусы под ваши запросы и цели и сделать выбор оптипальным по цене и
+                                качеству.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="how-work-item__arrow-bottom animated">
+                        <svg width="56" height="30" viewBox="0 0 56 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="1.41406" width="2" height="39.4694" transform="rotate(-45 0 1.41406)"
+                                fill="#F88500" />
+                            <rect x="54.417" y="0.0976562" width="2" height="39.3726"
+                                transform="rotate(45 54.417 0.0976562)" fill="#F88500" />
+                        </svg>
+                    </div>
+
+                    <div class="how-work-item__content-right animated">
+
+                        <div class="how-work-item__img-wrapper">
+                            <img src="images/how-work/how-work-2.png" alt="how-work-2">
+                        </div>
+
+                        <div class="how-work-item__content-description">
+                            <h5 class="how-work-item__content-description-title">
+                                После получения заявки
+                            </h5>
+                            <p class="how-work-item__content-description-text">Обсуждаем с заказчиком проект,
+                                уточняем все пожелания. Предлагаем варианты выполнения проекта, которые будут
+                                наиболее
+                                сообветствовать запросам, используемые материалы, сроки выполнения,
+                                предварительную цену.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="how-work-item__arrow-bottom animated">
+                        <svg width="56" height="30" viewBox="0 0 56 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="1.41406" width="2" height="39.4694" transform="rotate(-45 0 1.41406)"
+                                fill="#F88500" />
+                            <rect x="54.417" y="0.0976562" width="2" height="39.3726"
+                                transform="rotate(45 54.417 0.0976562)" fill="#F88500" />
+                        </svg>
+
+                    </div>
+
+                    <div class="how-work-item__content-left animated">
+
+                        <div class="how-work-item__img-wrapper">
+                            <img src="images/how-work/how-work-3.png" alt="how-work-3">
+                        </div>
+
+                        <div class="how-work-item__content-description">
+                            <h5 class="how-work-item__content-description-title">
+                                Произведение расчетов
+                            </h5>
+                            <p class="how-work-item__content-description-text">Производим архитектурные
+                                инженерные расчеты проекта, с учетом используемых материалов в соответсвии с
+                                договоренностями с
+                                клиентом.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="how-work-item__arrow-bottom animated">
+                        <svg width="56" height="30" viewBox="0 0 56 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="1.41406" width="2" height="39.4694" transform="rotate(-45 0 1.41406)"
+                                fill="#F88500" />
+                            <rect x="54.417" y="0.0976562" width="2" height="39.3726"
+                                transform="rotate(45 54.417 0.0976562)" fill="#F88500" />
+                        </svg>
+
+                    </div>
+
+                    <div class="how-work-item__content-right animated">
+
+                        <div class="how-work-item__img-wrapper">
+                            <img src="images/how-work/how-work-4.png" alt="how-work-4">
+                        </div>
+
+                        <div class="how-work-item__content-description">
+                            <h5 class="how-work-item__content-description-title">
+                                Утверждение проекта, Подписание договора
+                            </h5>
+                            <p class="how-work-item__content-description-text">Утверждение проекта у заказчика,
+                                уточнение расчетов. На бумагу в договоре ложаться договоренности сторон для
+                                запуска
+                                проекта: виды выполняемых услуг, сроки выполнения, порядок оплаты,
+                                ответственность сторон.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="how-work-item__arrow-bottom animated">
+                        <svg width="56" height="30" viewBox="0 0 56 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="1.41406" width="2" height="39.4694" transform="rotate(-45 0 1.41406)"
+                                fill="#F88500" />
+                            <rect x="54.417" y="0.0976562" width="2" height="39.3726"
+                                transform="rotate(45 54.417 0.0976562)" fill="#F88500" />
+                        </svg>
+
+                    </div>
+
+                    <div class="how-work-item__content-left animated">
+
+                        <div class="how-work-item__img-wrapper">
+                            <img src="images/how-work/how-work-5.png" alt="how-work-5">
+                        </div>
+
+                        <div class="how-work-item__content-description">
+                            <h5 class="how-work-item__content-description-title">
+                                Реализация проекта
+                            </h5>
+                            <p class="how-work-item__content-description-text">Полностью собираем и
+                                устанавливаем конструкции согласно утвержденнного проекта в сроки указанные в
+                                договоре. Все
+                                необходимые материалы для строительства и комплектации изделий, доставляются
+                                нами.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="how-work-item__arrow-bottom animated">
+                        <svg width="56" height="30" viewBox="0 0 56 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="1.41406" width="2" height="39.4694" transform="rotate(-45 0 1.41406)"
+                                fill="#F88500" />
+                            <rect x="54.417" y="0.0976562" width="2" height="39.3726"
+                                transform="rotate(45 54.417 0.0976562)" fill="#F88500" />
+                        </svg>
+
+                    </div>
+
+                    <div class="how-work-item__content-right animated">
+
+                        <div class="how-work-item__img-wrapper">
+                            <img src="images/how-work/how-work-6.png" alt="how-work-6">
+                        </div>
+
+                        <div class="how-work-item__content-description">
+                            <h5 class="how-work-item__content-description-title">
+                                Сдача проекта
+                            </h5>
+                            <p class="how-work-item__content-description-text">Все работы выполняются согласно
+                                утвердженного графика в установленные договором строки. По завершению работ,
+                                сдаем
+                                проект заказчику.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="how-work-item__arrow-bottom animated">
+                        <svg width="56" height="30" viewBox="0 0 56 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="1.41406" width="2" height="39.4694" transform="rotate(-45 0 1.41406)"
+                                fill="#F88500" />
+                            <rect x="54.417" y="0.0976562" width="2" height="39.3726"
+                                transform="rotate(45 54.417 0.0976562)" fill="#F88500" />
+                        </svg>
+
+                    </div>
+
+                    <div class="how-work-item__content-left animated">
+
+                        <div class="how-work-item__img-wrapper">
+                            <img src="images/how-work/how-work-7.png" alt="how-work-7">
+                        </div>
+
+                        <div class="how-work-item__content-description">
+                            <h5 class="how-work-item__content-description-title">
+                                Обслуживание изделия
+                            </h5>
+                            <p class="how-work-item__content-description-text">Производим обслуживание, ремонт
+                                либо замену изделий по вашему желанию. Предоставляем бесплатный предворительный
+                                расчет
+                                стоимости работ и материалов, график выполнения работ.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- /.sect-how-work -->
+
+
+        <section class="sect-confidence">
+
+            <div class="sect-services__top">
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 services__top-title">
+                            <h3 class="services__top-title-name">Почему нам доверяют?</h3>
+                            <div class="line animated">
+                                <hr>
+                            </div>
+                            <h4 class="services__top-title-slogan">В своей работе мы используем только качественный
+                                материал. <br>Наша команда состоит из профессионалов.</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="sect-services__bottom">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 services-list">
+                            <div class="confidence-item">
+                                <div class="services-item__content">
+                                    <div class="confidence-item__img-wrapper confidence-item__img-wrapper-1">
+                                        <img src="images/confidence/eco.svg" alt="eco.svg"
+                                            class="confidence-item__img-1">
+                                    </div>
+                                    <h5 class="confidence-item__title">
+                                        Безопасные <br>материалы
+                                    </h5>
+                                    <p class="confidence-item__description">
+                                        Безопасность каждого из используемых материалов подтверждается соответствующим
+                                        сертификатом европейского стандарта. Мы
+                                        используем продукцию только проверенных годами брендов.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 services-list">
+                            <div class="confidence-item">
+                                <div class="services-item__content">
+                                    <div class="confidence-item__img-wrapper confidence-item__img-wrapper-2">
+                                        <img src="images/confidence/thumbs-up-regular.svg" alt="regular.svg"
+                                            class="confidence-item__img-2">
+                                    </div>
+                                    <h5 class="confidence-item__title">
+                                        Качественный <br>материал
+                                    </h5>
+                                    <p class="confidence-item__description">
+                                        В своей работе мы используем
+                                        только качественный материал, который будет служить вам
+                                        долгие годы, сохраняя свой безупречный первозданный внешний вид. Мы дорожим
+                                        своей репутацией.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 services-list">
+                            <div class="confidence-item">
+                                <div class="services-item__content">
+                                    <div class="confidence-item__img-wrapper
+                                    confidence-item__img-wrapper-3">
+                                        <img src="images/confidence/team.svg" alt="team.svg"
+                                            class="confidence-item__img-3">
+                                    </div>
+                                    <h5 class="confidence-item__title">
+                                        Профессиональная <br>команда
+                                    </h5>
+                                    <p class="confidence-item__description">
+                                        В нашей команде только профессионалы высокого уровня, накопившие большой опыт в
+                                        реализации обьетов разной сложности.
+                                        Все наши дизайнеры, инженеры,
+                                        архитекторы являются
+                                        серцифицированными спецами.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 services-list">
+                            <div class="confidence-item">
+                                <div class="services-item__content">
+                                    <div class="confidence-item__img-wrapper confidence-item__img-wrapper-4">
+                                        <img src="images/confidence/design-tool.svg" alt="design-tool.svg"
+                                            class="confidence-item__img-4">
+                                    </div>
+                                    <h5 class="confidence-item__title">
+                                        Лучшие <br>решения
+                                    </h5>
+                                    <p class="confidence-item__description">
+                                        Безопасность каждого из используемых материалов подтверждается соответствующим
+                                        сертификатом европейского стандарта. Мы
+                                        используем продукцию только проверенных годами брендов.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 services-list">
+                            <div class="confidence-item">
+                                <div class="services-item__content">
+                                    <div class="confidence-item__img-wrapper confidence-item__img-wrapper-5">
+                                        <img src="images/confidence/mat.svg" alt="mat.svg"
+                                            class="confidence-item__img-5">
+                                    </div>
+                                    <h5 class="confidence-item__title">
+                                        Надежность <br>конструкций
+                                    </h5>
+                                    <p class="confidence-item__description">
+                                        В своей работе мы уделяем особое внимание не только качеству материалов, которые
+                                        используем, но и надежности конструкций, которые устанавливаем. Нам важно, чтобы
+                                        чтобы любое изделие произведенное нами служило вам долгие годы.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 services-list">
+                            <div class="confidence-item">
+                                <div class="services-item__content">
+                                    <div class="confidence-item__img-wrapper  confidence-item__img-wrapper-6">
+                                        <img src="images/confidence/delivery.svg" alt="delivery.svg"
+                                            class="confidence-item__img-6">
+                                    </div>
+                                    <h5 class="confidence-item__title">
+                                        Проверенные <br>поставщики
+                                    </h5>
+                                    <p class="confidence-item__description">
+                                        Мы работаем исключительно только с проверенными брендами. Наши
+                                        партнеры-производитель работают с нами долгие годы. Их продукция является одной
+                                        из лучших на рынке, превосходя конкурентов по высокому качеству и розумной цене.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- /.sect-confidence -->
+
+
+        <section class="sect-partners">
+
+            <div class="sect-services__top partners__top">
+
+                <div class="services__top-title">
+                    <h3 class="services__top-title-name color-white">Наши партнеры</h3>
+                </div>
+
+            </div>
+
+            <div class="sect-services__bottom partners__bottom">
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-6 partners-list">
+                            <div class="partners-item animated">
+                                <div class="services-item__content">
+                                    <div class="partners-item__img-wrapper">
+                                        <img src="images/partners/LOGO Rynaers.svg" alt="LOGO Rynaers.svg"
+                                            class="partners-item__img">
+                                    </div>
+                                    <p class="partners-item__description">
+                                        <span class="partners-item-text">Reynaers Aluminium</span>
+                                        - ведущие европейские специалисты в области разработки и маркетинга
+                                        инновационных и надежных решений
+                                        по алюминиевым профилям.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 partners-list">
+                            <div class="partners-item animated">
+                                <div class="services-item__content">
+                                    <div class="partners-item__img-wrapper">
+                                        <img src="images/partners/LOGO KMD.svg" alt="LOGO KMD.svg"
+                                            class="partners-item__img">
+                                    </div>
+                                    <p class="partners-item__description">
+                                        <span class="partners-item-text">KMD</span>
+                                        - современные архитектурные фасадные системы из алюминия и стали. Комплексное
+                                        решение для остекления, утепления и
+                                        облицовки здания.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 partners-list">
+                            <div class="partners-item animated">
+                                <div class="services-item__content">
+                                    <div class="partners-item__img-wrapper">
+                                        <img src="images/partners/LOGO Alutex.svg" alt="LOGO Alutex.svg"
+                                            class="partners-item__img">
+                                    </div>
+                                    <p class="partners-item__description">
+                                        <span class="partners-item-text">Alutech</span>
+                                        - один из крупнейших в Восточной Европе производителей роллет, секционных ворот
+                                        и других алюминиевых конструкций
+                                        для использования в строительстве.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 partners-list">
+                            <div class="partners-item animated">
+                                <div class="services-item__content">
+                                    <div class="partners-item__img-wrapper">
+                                        <img src="images/partners/LOGO Profilco.svg" alt="LOGO Profilco.svg"
+                                            class="partners-item__img">
+                                    </div>
+                                    <p class="partners-item__description">
+                                        <span class="partners-item-text">Profilco</span>
+                                        - одниy из самых современных производственных объединений по экструзии
+                                        алюминиевого профиля в Европе. Годовой объем производства составляет более <span
+                                            class="partners-item-numb">9,000</span>
+                                        тонн.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- /.sect-partners -->
+
+
+        <section id="gallery" class="sect-bestworks">
+            <div class="sect-bestworks-dark-block">
+                <div class="sect-bestworks-width">
+                    <div class="bestworks-dark-block">
+                        <div class="bestworks-head">
+                            <h3>Галерея наших проектов</h3>
+                        </div>
+                        <div class="line bestworks__line animated">
+                            <hr>
+                        </div>
+                        <div class="bestworks-description">
+                            <h4 class="container services__top-title-slogan">
+                                Представляем вам примеры работ нашей команды с любовью и заботой о клиентах.
+                                <br>Портфолио позволит вам выбрать интересующий стиль, цвет, фактуру, дизайн и
+                                расположения элементов.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.sect-bestworks-width -->
+            </div>
+            <!-- /.sect-bestworks-dark-block -->
+            <div class="sect-bestworks-light-block">
+                <div class="container sect-bestworks-width">
+
+                    <!-- Slider main container -->
+                    <div class="swiper bestworks-slider">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="bestworks-card">
+                                    <div class="bestworks-card-content">
+                                        <img data-bestworks-img="01" src="./images/bestworks/bestworks-img-1.jpg"
+                                            alt="bestworks-img-1.png" class="bestworks-card-img"
+                                            id="bestworks-card-img-1">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-lt">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-rt">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-rb">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-lb">
+                                        <div class="bestworks-card-img-dark-block"></div>
+                                    </div>
+                                    <!-- /.bestworks-card-img -->
+                                    <div class="bestworks-card-textblock">
+                                        <div class="bestworks-card-adress">
+                                            <svg class="bestworks-card-adress-logo" width="12" height="17"
+                                                viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39687 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                    fill="#E4E4E4" />
+                                            </svg>
+                                            <!-- <img src="/images/bestworks/adress-logo.png" alt="adress-logo"
+                                                    class="bestworks-card-adress-logo"> -->
+                                            <p class="bestworks-card-adress-text">Адрес обьекта</p>
+                                        </div>
+                                        <!-- /.bestworks-card-adress -->
+                                        <div class="bestworks-card-description-object">
+                                            <div class="bestworks-card-description-object-point">
+                                                <svg class="bestworks-point" width="5" height="5" viewBox="0 0 5 5"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <svg class="bestworks-point bestworks-point-2 " width="5" height="5"
+                                                    viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <svg class="bestworks-point" width="5" height="5" viewBox="0 0 5 5"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <!-- <img src="/images/bestworks/point.png" alt="point"
+                                                    class="bestworks-point">
+                                                        <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point">
+                                                        <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point"> -->
+                                            </div>
+                                            <p class="bestworks-card-description-object-text">Заголовок работы, что
+                                                сделано, что за обьект</p>
+                                        </div>
+                                        <!-- /.bestworks-card-description-object -->
+                                    </div>
+                                    <!-- /.bestworks-card-text-block -->
+                                </div>
+                                <!-- /.bestworks-card -->
+                            </div>
+                            <!-- /.swiper-slide-1 -->
+                            <div class="swiper-slide">
+                                <div class="bestworks-card">
+                                    <div class="bestworks-card-content">
+                                        <img data-bestworks-img="02" src="./images/bestworks/bestworks-img-2.jpg"
+                                            alt="bestworks-img-2" class="bestworks-card-img" id="bestworks-card-img-2">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-lt">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-rt">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-rb">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-lb">
+                                        <div class="bestworks-card-img-dark-block"></div>
+                                    </div>
+                                    <!-- /.bestworks-card-img -->
+                                    <div class="bestworks-card-textblock">
+                                        <div class="bestworks-card-adress">
+                                            <svg class="bestworks-card-adress-logo" width="12" height="17"
+                                                viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39687 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                    fill="#E4E4E4" />
+                                            </svg>
+                                            <!-- <img src="/images/bestworks/adress-logo.png" alt="adress-logo"
+                                                    class="bestworks-card-adress-logo"> -->
+                                            <p class="bestworks-card-adress-text">Адрес обьекта</p>
+                                        </div>
+                                        <!-- /.bestworks-card-adress -->
+                                        <div class="bestworks-card-description-object">
+                                            <div class="bestworks-card-description-object-point">
+                                                <svg class="bestworks-point" width="5" height="5" viewBox="0 0 5 5"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <svg class="bestworks-point bestworks-point-2 " width="5" height="5"
+                                                    viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <svg class="bestworks-point" width="5" height="5" viewBox="0 0 5 5"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <!-- <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point">
+                                                    <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point">
+                                                    <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point"> -->
+                                            </div>
+                                            <p class="bestworks-card-description-object-text">Заголовок работы, что
+                                                сделано,
+                                                что
+                                                за обьект</p>
+                                        </div>
+                                        <!-- /.bestworks-card-description-object -->
+                                    </div>
+                                    <!-- /.bestworks-card-text-block -->
+                                </div>
+                                <!-- /.bestworks-card -->
+                            </div>
+                            <!-- /.swiper-slide-2 -->
+                            <div class="swiper-slide">
+                                <div class="bestworks-card">
+                                    <div class="bestworks-card-content">
+                                        <img data-bestworks-img="03" src="./images/bestworks/bestworks-img-3.jpg"
+                                            alt="bestworks-img-3" class="bestworks-card-img" id="bestworks-card-img-3">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-lt">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-rt">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-rb">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-lb">
+                                        <div class="bestworks-card-img-dark-block"></div>
+                                    </div>
+                                    <!-- /.bestworks-card-img -->
+                                    <div class="bestworks-card-textblock">
+                                        <div class="bestworks-card-adress">
+                                            <svg class="bestworks-card-adress-logo" width="12" height="17"
+                                                viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39687 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                    fill="#E4E4E4" />
+                                            </svg>
+                                            <!-- <img src="/images/bestworks/adress-logo.png" alt="adress-logo"
+                                                    class="bestworks-card-adress-logo"> -->
+                                            <p class="bestworks-card-adress-text">Адрес обьекта</p>
+                                        </div>
+                                        <!-- /.bestworks-card-adress -->
+                                        <div class="bestworks-card-description-object">
+                                            <div class="bestworks-card-description-object-point">
+                                                <svg class="bestworks-point" width="5" height="5" viewBox="0 0 5 5"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <svg class="bestworks-point bestworks-point-2 " width="5" height="5"
+                                                    viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <svg class="bestworks-point" width="5" height="5" viewBox="0 0 5 5"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <!-- <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point">
+                                                    <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point">
+                                                    <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point"> -->
+                                            </div>
+                                            <p class="bestworks-card-description-object-text">Заголовок работы, что
+                                                сделано,
+                                                что
+                                                за обьект</p>
+                                        </div>
+                                        <!-- /.bestworks-card-description-object -->
+                                    </div>
+                                    <!-- /.bestworks-card-text-block -->
+                                </div>
+                                <!-- /.bestworks-card -->
+                            </div>
+                            <!-- /.swiper-slide-3 -->
+                            <div class="swiper-slide">
+                                <div class="bestworks-card">
+                                    <div class="bestworks-card-content">
+                                        <img data-bestworks-img="04" src="./images/bestworks/bestworks-img-4.jpg"
+                                            alt="bestworks-img-4" class="bestworks-card-img" id="bestworks-card-img-4">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-lt">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-rt">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-rb">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-lb">
+                                        <div class="bestworks-card-img-dark-block"></div>
+                                    </div>
+                                    <!-- /.bestworks-card-img -->
+                                    <div class="bestworks-card-textblock">
+                                        <div class="bestworks-card-adress">
+                                            <svg class="bestworks-card-adress-logo" width="12" height="17"
+                                                viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39687 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                    fill="#E4E4E4" />
+                                            </svg>
+                                            <!-- <img src="/images/bestworks/adress-logo.png" alt="adress-logo"
+                                                    class="bestworks-card-adress-logo"> -->
+                                            <p class="bestworks-card-adress-text">Адрес обьекта</p>
+                                        </div>
+                                        <!-- /.bestworks-card-adress -->
+                                        <div class="bestworks-card-description-object">
+                                            <div class="bestworks-card-description-object-point">
+                                                <svg class="bestworks-point" width="5" height="5" viewBox="0 0 5 5"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <svg class="bestworks-point bestworks-point-2 " width="5" height="5"
+                                                    viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <svg class="bestworks-point" width="5" height="5" viewBox="0 0 5 5"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <!-- <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point">
+                                                    <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point">
+                                                    <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point"> -->
+                                            </div>
+                                            <p class="bestworks-card-description-object-text">Заголовок работы, что
+                                                сделано,
+                                                что
+                                                за обьект</p>
+                                        </div>
+                                        <!-- /.bestworks-card-description-object -->
+                                    </div>
+                                    <!-- /.bestworks-card-text-block -->
+                                </div>
+                                <!-- /.bestworks-card -->
+                            </div>
+                            <!-- /.swiper-slide-4 -->
+                            <div class="swiper-slide">
+                                <div class="bestworks-card">
+                                    <div class="bestworks-card-content">
+                                        <img data-bestworks-img="05" src="./images/bestworks/bestworks-img-5.jpg"
+                                            alt="bestworks-img-5" class="bestworks-card-img" id="bestworks-card-img-5">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-lt">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-rt">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-rb">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-lb">
+                                        <div class="bestworks-card-img-dark-block"></div>
+                                    </div>
+                                    <!-- /.bestworks-card-img -->
+                                    <div class="bestworks-card-textblock">
+                                        <div class="bestworks-card-adress">
+                                            <svg class="bestworks-card-adress-logo" width="12" height="17"
+                                                viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39687 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                    fill="#E4E4E4" />
+                                            </svg>
+                                            <!-- <img src="/images/bestworks/adress-logo.png" alt="adress-logo"
+                                                    class="bestworks-card-adress-logo"> -->
+                                            <p class="bestworks-card-adress-text">Адрес обьекта</p>
+                                        </div>
+                                        <!-- /.bestworks-card-adress -->
+                                        <div class="bestworks-card-description-object">
+                                            <div class="bestworks-card-description-object-point">
+                                                <svg class="bestworks-point" width="5" height="5" viewBox="0 0 5 5"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <svg class="bestworks-point bestworks-point-2 " width="5" height="5"
+                                                    viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <svg class="bestworks-point" width="5" height="5" viewBox="0 0 5 5"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <!-- <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point">
+                                                    <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point">
+                                                    <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point"> -->
+                                            </div>
+                                            <p class="bestworks-card-description-object-text">Заголовок работы, что
+                                                сделано,
+                                                что
+                                                за обьект</p>
+                                        </div>
+                                        <!-- /.bestworks-card-description-object -->
+                                    </div>
+                                    <!-- /.bestworks-card-text-block -->
+                                </div>
+                                <!-- /.bestworks-card -->
+                            </div>
+                            <!-- /.swiper-slide-5 -->
+                            <div class="swiper-slide">
+                                <div class="bestworks-card">
+                                    <div class="bestworks-card-content">
+                                        <img data-bestworks-img="06" src="./images/bestworks/bestworks-img-6.jpg"
+                                            alt="bestworks-img-6" class="bestworks-card-img" id="bestworks-card-img-6">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-lt">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-rt">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-rb">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-lb">
+                                        <div class="bestworks-card-img-dark-block"></div>
+                                    </div>
+                                    <!-- /.bestworks-card-img -->
+                                    <div class="bestworks-card-textblock">
+                                        <div class="bestworks-card-adress">
+                                            <svg class="bestworks-card-adress-logo" width="12" height="17"
+                                                viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39687 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                    fill="#E4E4E4" />
+                                            </svg>
+                                            <!-- <img src="/images/bestworks/adress-logo.png" alt="adress-logo"
+                                                    class="bestworks-card-adress-logo"> -->
+                                            <p class="bestworks-card-adress-text">Адрес обьекта</p>
+                                        </div>
+                                        <!-- /.bestworks-card-adress -->
+                                        <div class="bestworks-card-description-object">
+                                            <div class="bestworks-card-description-object-point">
+                                                <svg class="bestworks-point" width="5" height="5" viewBox="0 0 5 5"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <svg class="bestworks-point bestworks-point-2 " width="5" height="5"
+                                                    viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <svg class="bestworks-point" width="5" height="5" viewBox="0 0 5 5"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <!-- <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point">
+                                                    <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point">
+                                                    <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point"> -->
+                                            </div>
+                                            <p class="bestworks-card-description-object-text">Заголовок работы, что
+                                                сделано,
+                                                что
+                                                за обьект</p>
+                                        </div>
+                                        <!-- /.bestworks-card-description-object -->
+                                    </div>
+                                    <!-- /.bestworks-card-text-block -->
+                                </div>
+                                <!-- /.bestworks-card -->
+                            </div>
+                            <!-- /.swiper-slide-6 -->
+                            <div class="swiper-slide">
+                                <div class="bestworks-card">
+                                    <div class="bestworks-card-content">
+                                        <img data-bestworks-img="07" src="./images/bestworks/bestworks-img-7.jpg"
+                                            alt="bestworks-img-7" class="bestworks-card-img" id="bestworks-card-img-7">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-lt">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-rt">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-rb">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-lb">
+                                        <div class="bestworks-card-img-dark-block"></div>
+                                    </div>
+                                    <!-- /.bestworks-card-img -->
+                                    <div class="bestworks-card-textblock">
+                                        <div class="bestworks-card-adress">
+                                            <svg class="bestworks-card-adress-logo" width="12" height="17"
+                                                viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39687 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                    fill="#E4E4E4" />
+                                            </svg>
+                                            <!-- <img src="/images/bestworks/adress-logo.png" alt="adress-logo"
+                                                    class="bestworks-card-adress-logo"> -->
+                                            <p class="bestworks-card-adress-text">Адрес обьекта</p>
+                                        </div>
+                                        <!-- /.bestworks-card-adress -->
+                                        <div class="bestworks-card-description-object">
+                                            <div class="bestworks-card-description-object-point">
+                                                <svg class="bestworks-point" width="5" height="5" viewBox="0 0 5 5"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <svg class="bestworks-point bestworks-point-2 " width="5" height="5"
+                                                    viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <svg class="bestworks-point" width="5" height="5" viewBox="0 0 5 5"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <!-- <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point">
+                                                    <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point">
+                                                    <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point"> -->
+                                            </div>
+                                            <p class="bestworks-card-description-object-text">Заголовок работы, что
+                                                сделано,
+                                                что
+                                                за обьект</p>
+                                        </div>
+                                        <!-- /.bestworks-card-description-object -->
+                                    </div>
+                                    <!-- /.bestworks-card-text-block -->
+                                </div>
+                                <!-- /.bestworks-card -->
+                            </div>
+                            <!-- /.swiper-slide-7 -->
+                            <div class="swiper-slide">
+                                <div class="bestworks-card">
+                                    <div class="bestworks-card-content">
+                                        <img data-bestworks-img="08" src="./images/bestworks/bestworks-img-8.jpg"
+                                            alt="bestworks-img-8.jpg" class="bestworks-card-img"
+                                            id="bestworks-card-img-8">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-lt">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-rt">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-rb">
+                                        <img src="./images/bestworks/bw-img-decoration.png" alt="bw-img-decoration"
+                                            class="bestworks-card-img-decor-lb">
+                                        <div class="bestworks-card-img-dark-block"></div>
+                                    </div>
+                                    <!-- /.bestworks-card-img -->
+                                    <div class="bestworks-card-textblock">
+                                        <div class="bestworks-card-adress">
+                                            <svg class="bestworks-card-adress-logo" width="12" height="17"
+                                                viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.99984 2.14977C3.8769 2.14977 2.14977 3.8769 2.14977 5.99984C2.14977 6.17988 2.23606 7.20934 3.93967 9.80219C4.62591 10.8466 5.39687 11.8741 6.05371 12.7143C6.5054 12.1308 7.01059 11.4496 7.5059 10.7269C9.78414 7.4026 9.84991 6.1336 9.84991 5.99984C9.84991 3.8769 8.12278 2.14977 5.99984 2.14977ZM5.99984 0C9.31346 0 11.9997 2.68622 11.9997 5.99984C11.9997 9.27685 6.1008 16.1233 6.00098 16.1233C5.99987 16.1233 5.99949 16.1224 5.99984 16.1207C6.03139 15.9654 0 9.31346 0 5.99984C0 2.68622 2.68622 0 5.99984 0Z"
+                                                    fill="#E4E4E4" />
+                                            </svg>
+                                            <!-- <img src="/images/bestworks/adress-logo.png" alt="adress-logo"
+                                                    class="bestworks-card-adress-logo"> -->
+                                            <p class="bestworks-card-adress-text">Адрес обьекта</p>
+                                        </div>
+                                        <!-- /.bestworks-card-adress -->
+                                        <div class="bestworks-card-description-object">
+                                            <div class="bestworks-card-description-object-point">
+                                                <svg class="bestworks-point" width="5" height="5" viewBox="0 0 5 5"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <svg class="bestworks-point bestworks-point-2 " width="5" height="5"
+                                                    viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <svg class="bestworks-point" width="5" height="5" viewBox="0 0 5 5"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#E4E4E4" />
+                                                </svg>
+                                                <!-- <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point">
+                                                    <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point">
+                                                    <img src="/images/bestworks/point.png" alt="point"
+                                                        class="bestworks-point"> -->
+                                            </div>
+                                            <p class="bestworks-card-description-object-text">Заголовок работы, что
+                                                сделано,
+                                                что
+                                                за обьект</p>
+                                        </div>
+                                        <!-- /.bestworks-card-description-object -->
+                                    </div>
+                                    <!-- /.bestworks-card-text-block -->
+                                </div>
+                                <!-- /.bestworks-card -->
+                            </div>
+                            <!-- /.swiper-slide-8 -->
+                        </div>
+                        <!-- If we need pagination -->
+                        <!-- <div class="swiper-pagination"></div> -->
+
+                        <!-- If we need navigation buttons -->
+                        <a class="bestworks-slider-button-prev">❮</a>
+                        <!-- <div class="bestworks-slider-button-prev">
+                                <svg class="bestworks-slider-button-left" width="30" height="29" viewBox="0 0 30 29"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.4959 27.9187L1.77723 15.4961C1.67308 15.3954 1.59026 15.2747 1.5337 15.1413C1.47714 15.0079 1.44799 14.8645 1.44799 14.7196C1.44799 14.5747 1.47714 14.4312 1.5337 14.2978C1.59026 14.1644 1.67308 14.0437 1.77723 13.943C1.99024 13.7365 2.27528 13.621 2.57198 13.621C2.86867 13.621 3.15371 13.7365 3.36672 13.943L16.0854 26.3655C16.1895 26.4663 16.2723 26.5869 16.3289 26.7204C16.3855 26.8538 16.4146 26.9972 16.4146 27.1421C16.4146 27.287 16.3855 27.4304 16.3289 27.5639C16.2723 27.6973 16.1895 27.8179 16.0854 27.9187C15.8724 28.1252 15.5873 28.2407 15.2906 28.2407C14.9939 28.2407 14.7089 28.1252 14.4959 27.9187V27.9187Z"
+                                        fill="#E7E7E8" />
+                                    <path
+                                        d="M16.0869 2.49499L3.36695 14.9188C3.15391 15.1253 2.86885 15.2408 2.57212 15.2408C2.2754 15.2408 1.99034 15.1253 1.7773 14.9188C1.67314 14.818 1.59031 14.6973 1.53374 14.5639C1.47718 14.4305 1.44803 14.287 1.44803 14.1421C1.44803 13.9972 1.47718 13.8538 1.53374 13.7203C1.59031 13.5869 1.67314 13.4662 1.7773 13.3655L14.4972 0.941668C14.7106 0.735495 14.9959 0.620489 15.2926 0.62101C15.5893 0.621532 15.8742 0.73754 16.0869 0.944462C16.1906 1.04518 16.2731 1.16569 16.3294 1.29886C16.3857 1.43203 16.4147 1.57514 16.4147 1.71973C16.4147 1.86431 16.3857 2.00743 16.3294 2.14059C16.2731 2.27376 16.1906 2.39427 16.0869 2.49499V2.49499Z"
+                                        fill="#E7E7E8" />
+                                </svg>
+                            </div> -->
+                        <!-- /.bestworks-slider-button-prev -->
+                        <a class="bestworks-slider-button-next">❯</a>
+                        <!-- <div class="bestworks-slider-button-next">
+                                <svg class="bestworks-slider-button-right" width="30" height="29" viewBox="0 0 30 29"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M15.7883 0.942883L28.5069 13.3654C28.6111 13.4662 28.6939 13.5869 28.7505 13.7203C28.807 13.8537 28.8362 13.9971 28.8362 14.142C28.8362 14.2869 28.807 14.4303 28.7505 14.5638C28.6939 14.6972 28.6111 14.8178 28.5069 14.9186C28.2939 15.1251 28.0089 15.2406 27.7122 15.2406C27.4155 15.2406 27.1305 15.1251 26.9175 14.9186L14.1988 2.49605C14.0947 2.3953 14.0118 2.27463 13.9553 2.14121C13.8987 2.0078 13.8696 1.86437 13.8696 1.71947C13.8696 1.57456 13.8987 1.43113 13.9553 1.29772C14.0118 1.16431 14.0947 1.04363 14.1988 0.942883C14.4118 0.736357 14.6969 0.620862 14.9935 0.620862C15.2902 0.620862 15.5753 0.736357 15.7883 0.942883V0.942883Z"
+                                        fill="#E7E7E8" />
+                                    <path
+                                        d="M14.1973 26.3666L26.9172 13.9428C27.1303 13.7362 27.4153 13.6207 27.7121 13.6207C28.0088 13.6207 28.2938 13.7362 28.5069 13.9428C28.611 14.0435 28.6939 14.1642 28.7504 14.2977C28.807 14.4311 28.8362 14.5745 28.8362 14.7194C28.8362 14.8644 28.807 15.0078 28.7504 15.1412C28.6939 15.2747 28.611 15.3954 28.5069 15.4961L15.7869 27.9199C15.5736 28.1261 15.2883 28.2411 14.9916 28.2406C14.6948 28.24 14.41 28.124 14.1973 27.9171C14.0936 27.8164 14.0111 27.6959 13.9548 27.5627C13.8985 27.4295 13.8695 27.2864 13.8695 27.1418C13.8695 26.9973 13.8985 26.8541 13.9548 26.721C14.0111 26.5878 14.0936 26.4673 14.1973 26.3666V26.3666Z"
+                                        fill="#E7E7E8" />
+                                </svg>
+    
+                            </div> -->
+                        <!-- /.bestworks-slider-button-next -->
+
+                        <!-- If we need scrollbar -->
+                        <!-- <div class="swiper-scrollbar"></div> -->
+                    </div>
+                    <!-- /.bestworks-slider -->
+                </div>
+                <!-- /.sect-bestworks-width -->
+            </div>
+            <!-- /.sect-bestworks-bg-light -->
+        </section>
+        <!-- /.sect-bestworks -->
+
+
+        <section id="contacts" class="sect-contacts">
+            <div class="container contacts-light-block">
+                <div class="bestworks-dark-block">
+                    <div class="bestworks-head">
+                        <h3>Оформить заявку</h3>
+                    </div>
+                    <div class="line bestworks__line animated">
+                        <hr>
+                    </div>
+                    <div class="contacts-description">
+                        <h4 class="contacts__top-title-slogan">
+                            Ответим на любой вопрос по всем видам услуг, которые предоставляет компания. <br>Позвоните
+                            или напишите нам и наши
+                            специалисты смогут вам помочь.
+                        </h4>
+                    </div>
+                </div>
+                <div class="contacts-form">
+                    <form class="feedback-form">
+                        <input class="contacts-form__active feedback-form__input feedback-form__name" type="text"
+                            name="name" placeholder="Ваше имя..." required>
+                        <input class="contacts-form__active feedback-form__input feedback-form__tel" type="tel"
+                            name="phone" placeholder="Ваш телефон..." required>
+                        <input type="email" class="contacts-form__active feedback-form__input feedback-form__email"
+                            placeholder="Ваш email..." name="email">
+                        <textarea class="contacts-form__active" name="comment" id="" cols="" rows="4"
+                            placeholder="Текст сообщения..."></textarea>
+                        <input type="hidden" name="contacts-form">
+                        <div class="modal__footer contacts-btn">
+                            <button class="button">Отправить сообщение</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- /.sect-bestworks-dark-block -->
+
+            <div id="footer-contacts_adress" class="contacts-dark-block">
+                <div class="container">
+                    <div class="bestworks-dark-block">
+                        <div class="contacts-head">
+                            <h3>Наши контакты</h3>
+                        </div>
+                        <div class="contacts-description-bottom">
+                            <div class="contacts__address-wrapper">
+                                <svg width="11" height="17" viewBox="0 0 11 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5.49985 2.14977C3.55383 2.14977 1.97062 3.8769 1.97062 5.99984C1.97062 6.17988 2.04972 7.20934 3.61137 9.80219C4.24042 10.8466 4.94713 11.8741 5.54924 12.7143C5.96329 12.1308 6.42637 11.4496 6.88041 10.7269C8.96879 7.4026 9.02908 6.1336 9.02908 5.99984C9.02908 3.8769 7.44588 2.14977 5.49985 2.14977ZM5.49985 0C8.53734 0 10.9997 2.68622 10.9997 5.99984C10.9997 9.27685 5.5924 16.1233 5.5009 16.1233C5.49988 16.1233 5.49953 16.1224 5.49985 16.1207C5.52877 15.9654 0 9.31346 0 5.99984C0 2.68622 2.46237 0 5.49985 0Z"
+                                        fill="#F88500" />
+                                </svg>
+                                <div class="contacts__address">
+                                    г. Одесса, ул. Щеголева, <span>14</span>
+                                </div>
+                            </div>
+                            <a href="mailto:ddaodessa@gmail.com" class="contacts__mail">
+                                ddaodessa@gmail.com
+                            </a>
+                            <a href="tel:+380953688308" class="contacts__tell">
+                                +38 (095) 368-83-08
+                            </a>
+                        </div>
+                        <div class="contacts__map-wrapper">
+                            <div id="map" class="contacts__map">
+                                <!-- <img src="./images/map.jpg" alt="map" class="map"> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.sect-bestworks-width -->
+            </div>
+            <!-- /.sect-bestworks-bg-light -->
+        </section>
+        <!-- /.sect-bestworks -->
+
+        <!-- google map -->
+        <script>
+            function initMap() {
+                let pos = { lat: 46.50045427036511, lng: 30.719647399999996 };
+
+                let opt = {
+                    center: pos,
+                    zoom: 17
+                };
+
+                let map = new google.maps.Map(document.getElementById("map"), opt);
+
+                let marker = new google.maps.Marker({
+                    position: pos,
+                    map: map,
+                    title: "Одесса, ул. Щеголева, 14"
+                });
+
+                let info = new google.maps.InfoWindow({
+                    // content: "<span><b>AluGlass</b></span>"
+                    content: "<img src=\"./images/menu/logo2.svg\"\ alt=\"logo\" class=\"logo-image\">"
+                });
+
+                marker.addListener("click", function () {
+                    info.open(map, marker);
+                });
+            }
+        </script>
+
+    </main>
+    <!-- /.main -->
+
+    <footer>
+        <!-- .call>.inner>ul>li*5>loremru5 -->
+        <div class="footer">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 footer-logo">
+                        <a href="/index.html" class="logo">
+                            <img src="./images/menu/logo_.svg" alt="logo" class="logo-image" />
+                        </a>
+                        <h5 class="footer-col_header">КОРОТКО О НАС</h5>
+                        <p class="footer-col_slogan">К каждому клиенту индивидуальный подход. С учетом всех пожеланий,
+                            досконально прорабатываем и предлагаем оптимальное
+                            решение проекта любой сложности.</p>
+                    </div>
+                    <div class="col-md-2 footer-menu">
+                        <h5 class="footer-col_menu">МЕНЮ</h5>
+                        <img src="./images/decoration.svg" alt="decoration.svg" class="footer-col_decor">
+                        <nav class="footer-col_navbar-menu">
+                            <ul class="footer-col_buttom-menu">
+                                <li class="footer-col_bottom-menu-item">
+                                    <a href="#home" class="footer-col_bottom-menu-link">Главная</a>
+                                </li>
+                                <li class="footer-col_bottom-menu-item">
+                                    <a href="#project" class="footer-col_bottom-menu-link">Проекты</a>
+                                </li>
+                                <li class="footer-col_bottom-menu-item">
+                                    <a href="#advantages" class="footer-col_bottom-menu-link">Компания</a>
+                                </li>
+                                <li class="footer-col_bottom-menu-item">
+                                    <a href="#services" class="footer-col_bottom-menu-link">Услуги</a>
+                                </li>
+                                <li class="footer-col_bottom-menu-item">
+                                    <a href="#gallery" class="footer-col_bottom-menu-link">Галерея</a>
+                                </li>
+                                <li class="footer-col_bottom-menu-item">
+                                    <a href="#contacts" class="footer-col_bottom-menu-link">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-3 footer-service">
+                        <h5 class="footer-col_menu">УСЛУГИ</h5>
+                        <img src="./images/decoration.svg" alt="decoration.svg" class="footer-col_decor">
+                        <nav class="footer-col_navbar-menu">
+                            <ul class="footer-col_buttom-menu">
+                                <li class="footer-col_bottom-menu-item">
+                                    <a href="#services_doors" class="footer-col_bottom-menu-link">Алюминиевые окна и
+                                        двери</a>
+                                </li>
+                                <li class="footer-col_bottom-menu-item">
+                                    <a href="#services_aluminum_facades" class="footer-col_bottom-menu-link">Алюминиевые
+                                        фасады</a>
+                                </li>
+                                <li class="footer-col_bottom-menu-item">
+                                    <a href="#services_ventilated_facades"
+                                        class="footer-col_bottom-menu-link">Вентилируемые
+                                        фасады</a>
+                                </li>
+                                <li class="footer-col_bottom-menu-item">
+                                    <a href="#services_glass_facades" class="footer-col_bottom-menu-link">Фасады из
+                                        стекла</a>
+                                </li>
+                                <li class="footer-col_bottom-menu-item">
+                                    <a href="#services_glass" class="footer-col_bottom-menu-link">Изделия из каленого
+                                        стекла</a>
+                                </li>
+                                <li class="footer-col_bottom-menu-item">
+                                    <a href="#services_perilnoe" class="footer-col_bottom-menu-link">Перильные
+                                        ограждения</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-3 footer-contacts">
+                        <h5 class="footer-col_menu">КОНТАКТЫ</h5>
+                        <img src="./images/decoration.svg" alt="decoration.svg" class="footer-col_decor">
+                        <nav class="footer-col_navbar-menu">
+                            <ul class="footer-col_buttom-menu">
+                                <li class="footer-col_bottom-menu-item">
+                                    <a href="#footer-contacts_adress" class="footer-col_bottom-adress-link">
+                                        <span class="footer-col_bottom-adress-link-text">г.
+                                            Одесса, ул.
+                                            Щеголева, <span>16</span></span></a>
+                                </li>
+                                <li class="footer-col_bottom-menu-item">
+                                    <a href="tel:+380953688308" class="footer-col_bottom-tell-link">
+                                        <span class="footer-col_bottom-tell-link-text">+38
+                                            095 368 83 08</span></a>
+                                </li>
+                                <li class="footer-col_bottom-menu-item">
+                                    <a href="mailto:ddaodessa@gmail.com" class="footer-col_bottom-email-link">
+                                        <span class="footer-col_bottom-email-link-text">ddaodessa@gmaill.com</span></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="footer-button">
+                <a href="#callback" class="footer_button-link">
+                    <img src="./images/btn_arrow_to_top.svg" alt="btn_arrow_to_top.svg" class="footer_button-img">
+                </a>
+            </div> -->
+        </div>
+
+    </footer>
+    <!-- /.footer -->
+
+
+    <div class="wrapper-bestworks-image-slider">
+        <div class="wrapper-bestworks-image-slider-container">
+
+            <div class="swiper bestworks-image-slider">
+                <div class="swiper-wrapper bestworks-image-slider__wrapper">
+
+                    <div data-hash="slide-1" class="swiper-slide bestworks-image-slider__slide">
+                        <div class="bestworks-image-slider__image swiper-zoom-container">
+                            <img data-src="../images/bestworks/bestworks-img-1.jpg"
+                                src="../images/bestworks/bestworks-img-1.jpg" class="swiper-lazy" alt="bestworks-img-1"
+                                title="Для увеличения - двойной клик">
+                            <div class="swiper-lazy-preloader"></div>
+                        </div>
+                    </div>
+                    <div data-hash="slide-2" class="swiper-slide bestworks-image-slider__slide">
+                        <div class="bestworks-image-slider__image swiper-zoom-container">
+                            <img data-src="../images/bestworks/bestworks-img-2.jpg"
+                                src="../images/bestworks/bestworks-img-2.jpg" class="swiper-lazy" alt="bestworks-img-2"
+                                title="Для увеличения - двойной клик">
+                            <div class="swiper-lazy-preloader"></div>
+                        </div>
+                    </div>
+                    <div data-hash="slide-3" class="swiper-slide bestworks-image-slider__slide">
+                        <div class="bestworks-image-slider__image swiper-zoom-container">
+                            <img data-src="../images/bestworks/bestworks-img-3.jpg"
+                                src="../images/bestworks/bestworks-img-3.jpg" class="swiper-lazy" alt="bestworks-img-3"
+                                title="Для увеличения - двойной клик">
+                            <div class="swiper-lazy-preloader"></div>
+                        </div>
+                    </div>
+                    <div data-hash="slide-4" class="swiper-slide bestworks-image-slider__slide">
+                        <div class="bestworks-image-slider__image swiper-zoom-container">
+                            <img data-src="../images/bestworks/bestworks-img-4.jpg"
+                                src="../images/bestworks/bestworks-img-4.jpg" class="swiper-lazy" alt="bestworks-img-4"
+                                title="Для увеличения - двойной клик">
+                            <div class="swiper-lazy-preloader"></div>
+                        </div>
+                    </div>
+                    <div data-hash="slide-5" class="swiper-slide bestworks-image-slider__slide">
+                        <div class="bestworks-image-slider__image swiper-zoom-container">
+                            <img data-src="../images/bestworks/bestworks-img-5.jpg"
+                                src="../images/bestworks/bestworks-img-5.jpg" class="swiper-lazy" alt="bestworks-img-5"
+                                title="Для увеличения - двойной клик">
+                            <div class="swiper-lazy-preloader"></div>
+                        </div>
+                    </div>
+                    <div data-hash="slide-6" class="swiper-slide bestworks-image-slider__slide">
+                        <div class="bestworks-image-slider__image swiper-zoom-container">
+                            <img data-src="../images/bestworks/bestworks-img-6.jpg"
+                                src="../images/bestworks/bestworks-img-6.jpg" class="swiper-lazy" alt="bestworks-img-6"
+                                title="Для увеличения - двойной клик">
+                            <div class="swiper-lazy-preloader"></div>
+                        </div>
+                    </div>
+                    <div data-hash="slide-7" class="swiper-slide bestworks-image-slider__slide">
+                        <div class="bestworks-image-slider__image swiper-zoom-container">
+                            <img data-src="../images/bestworks/bestworks-img-7.jpg"
+                                src="../images/bestworks/bestworks-img-7.jpg" class="swiper-lazy" alt="bestworks-img-7"
+                                title="Для увеличения - двойной клик">
+                            <div class="swiper-lazy-preloader"></div>
+                        </div>
+                    </div>
+                    <div data-hash="slide-8" class="swiper-slide bestworks-image-slider__slide">
+                        <div class="bestworks-image-slider__image swiper-zoom-container">
+                            <img data-src="../images/bestworks/bestworks-img-8.jpg"
+                                src="../images/bestworks/bestworks-img-8.jpg" class="swiper-lazy" alt="bestworks-img-8"
+                                title="Для увеличения - двойной клик">
+                            <div class="swiper-lazy-preloader"></div>
+                        </div>
+                    </div>
+                    <div data-hash="slide-9" class="swiper-slide bestworks-image-slider__slide">
+                        <div class="bestworks-image-slider__image swiper-zoom-container">
+                            <img data-src="../images/bestworks/bestworks-img-9.jpg"
+                                src="../images/bestworks/bestworks-img-9.jpg" class="swiper-lazy" alt="bestworks-img-9"
+                                title="Для увеличения - двойной клик">
+                            <div class="swiper-lazy-preloader"></div>
+                        </div>
+                    </div>
+                    <div data-hash="slide-10" class="swiper-slide bestworks-image-slider__slide">
+                        <div class="bestworks-image-slider__image swiper-zoom-container">
+                            <img data-src="../images/bestworks/bestworks-img-10.jpg"
+                                src="../images/bestworks/bestworks-img-10.jpg" class="swiper-lazy" alt="bestworks-img-10"
+                                title="Для увеличения - двойной клик">
+                            <div class="swiper-lazy-preloader"></div>
+                        </div>
+                    </div>
+                    <div data-hash="slide-11" class="swiper-slide bestworks-image-slider__slide">
+                        <div class="bestworks-image-slider__image swiper-zoom-container">
+                            <img data-src="../images/bestworks/bestworks-img-11.jpg"
+                                src="../images/bestworks/bestworks-img-11.jpg" class="swiper-lazy" alt="bestworks-img-11"
+                                title="Для увеличения - двойной клик">
+                            <div class="swiper-lazy-preloader"></div>
+                        </div>
+                    </div>
+                    <div data-hash="slide-12" class="swiper-slide bestworks-image-slider__slide">
+                        <div class="bestworks-image-slider__image swiper-zoom-container">
+                            <img data-src="../images/bestworks/bestworks-img-12.jpg"
+                                src="../images/bestworks/bestworks-img-12.jpg" class="swiper-lazy" alt="bestworks-img-12"
+                                title="Для увеличения - двойной клик">
+                            <div class="swiper-lazy-preloader"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-prev bestworks-swiper-button-prev"></div>
+                <div class="swiper-button-next bestworks-swiper-button-next"></div>
+
+                <div class="swiper-pagination"></div>
+
+                <!-- <div class="swiper-scrollbar"></div> -->
+
+                <div class="image-slider__fraction">
+                    <div class="image-slider__current">1</div>
+                    <div class="image-slider__sepparator"> / </div>
+                    <div class="image-slider__total">1</div>
+                </div>
+            </div>
+
+            <div class="image-mini-slider swiper">
+                <div class="image-mini-slider__wrapper swiper-wrapper">
+                    <div class="image-mini-slider__slide swiper-slide">
+                        <div class="image-mini-slider__image">
+                            <img src="../images/bestworks/bestworks-img-1.jpg" alt="картинка_01">
+                        </div>
+                    </div>
+                    <div class="image-mini-slider__slide swiper-slide">
+                        <div class="image-mini-slider__image">
+                            <img src="../images/bestworks/bestworks-img-2.jpg" alt="картинка_02">
+                        </div>
+                    </div>
+                    <div class="image-mini-slider__slide swiper-slide">
+                        <div class="image-mini-slider__image">
+                            <img src="../images/bestworks/bestworks-img-3.jpg" alt="картинка_03">
+                        </div>
+                    </div>
+                    <div class="image-mini-slider__slide swiper-slide">
+                        <div class="image-mini-slider__image">
+                            <img src="../images/bestworks/bestworks-img-4.jpg" alt="картинка_04">
+                        </div>
+                    </div>
+                    <div class="image-mini-slider__slide swiper-slide">
+                        <div class="image-mini-slider__image">
+                            <img src="../images/bestworks/bestworks-img-5.jpg" alt="картинка_05">
+                        </div>
+                    </div>
+                    <div class="image-mini-slider__slide swiper-slide">
+                        <div class="image-mini-slider__image">
+                            <img src="../images/bestworks/bestworks-img-6.jpg" alt="картинка_06">
+                        </div>
+                    </div>
+                    <div class="image-mini-slider__slide swiper-slide">
+                        <div class="image-mini-slider__image">
+                            <img src="../images/bestworks/bestworks-img-7.jpg" alt="картинка_07">
+                        </div>
+                    </div>
+                    <div class="image-mini-slider__slide swiper-slide">
+                        <div class="image-mini-slider__image">
+                            <img src="../images/bestworks/bestworks-img-8.jpg" alt="картинка_08">
+                        </div>
+                    </div>
+                    <div class="image-mini-slider__slide swiper-slide">
+                        <div class="image-mini-slider__image">
+                            <img src="../images/bestworks/bestworks-img-9.jpg" alt="картинка_09">
+                        </div>
+                    </div>
+                    <div class="image-mini-slider__slide swiper-slide">
+                        <div class="image-mini-slider__image">
+                            <img src="../images/bestworks/bestworks-img-10.jpg" alt="картинка_10">
+                        </div>
+                    </div>
+                    <div class="image-mini-slider__slide swiper-slide">
+                        <div class="image-mini-slider__image">
+                            <img src="../images/bestworks/bestworks-img-11.jpg" alt="картинка_11">
+                        </div>
+                    </div>
+                    <div class="image-mini-slider__slide swiper-slide">
+                        <div class="image-mini-slider__image">
+                            <img src="../images/bestworks/bestworks-img-12.jpg" alt="картинка_12">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="wrapper-bestworks-image-slider-close-button">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 2L22 22" stroke="white" stroke-width="3" />
+                <path d="M22 2L2 22" stroke="white" stroke-width="3" />
+            </svg>
+            <!-- &#10006; -->
+        </button>
+
+    </div>
+    <!-- /.modal-bestworks-image-slider -->
+
+
+    <div class="modal-slide-bestworks">
+        <div class="modal-clouse-button">×</div>
+        <!-- /.modal-clouse-button -->
+
+        <div class="modal-bestworks-img">
+            <img src="../images/bestworks/bestworks-img-1.jpg" alt="img-board" class="bestworks-img-board"
+                id="bestworks-img-board">
+        </div>
+        <div class="modal-slide-bestworks__text">
+            <span class="modal-slide-bestworks__text-current">1</span>
+            <span class="modal-slide-bestworks__text-sepparator"> / </span>
+            <span class="modal-slide-bestworks__text-total">1</span>
+        </div>
+        <!-- /.modal-bestworks-img -->
+
+        <a class="modal-bestworks-img-prev">❮</a>
+        <a class="modal-bestworks-img-next">❯</a>
+    </div>
+    <!-- /.modal-slide-bestworks -->
+
+
+    <div id="modal" class="modal micromodal-slide">
+        <div class="modal__overlay" data-custom-close>
+            <div class="modal__container">
+                <header class="modal__header">
+                    <h2 class="modal__title">Оформить заявку</h2>
+                    <button class="modal__close" title="Закрыть" data-custom-close></button>
+                </header>
+                <form class="feedback-form" id="form">
+                    <input type="text" class="contacts-form__active feedback-form__input feedback-form__name"
+                        name="name" placeholder="Ваше имя..." required>
+                    <input id="phone" type="tel" name="phone"
+                        class="contacts-form__active feedback-form__input feedback-form__tel"
+                        placeholder="Ваш телефон..." required>
+                    <input id="email" type="email"
+                        class="contacts-form__active feedback-form__input feedback-form__email"
+                        placeholder="Ваш email..." name="email">
+                    <textarea name="comment" id="my-textarea" class="contacts-form__active form-control" cols=""
+                        rows="4" placeholder="Комментарий..."></textarea>
+                    <input type="hidden" name="form">
+                    <div class="modal__footer">
+                        <button class="button">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /.modal -->
+
+
+    <div class="modal-sect-advantages">
+        <div class="modal-clouse__advantages-button">×</div>
+        <!-- /.modal-clouse-button -->
+        <div class="modal-advantages-description">
+            <p class="section-title__paragraf">
+                Компания начала свою деятельность в <span>2006</span> году
+                . За это время накопили огромный опыт по созданию проектов по всей территории
+                Украины
+                .</p>
+
+            <p class="section-title__paragraf-text">С <span>2016</span> года компания активно и с
+                успехом осваивает зарубежные рынки.
+                Все конструкции изготавливаются на собственных производственных мощностях с
+                использованием комплектующих компаний-партнеров. В работе используются только лучшие
+                материалы на рынке по доступным ценам.</p>
+
+            <p class="section-title__paragraf-text">В штате компании состоят сертифицированные
+                конструктора с громадным опытом, знаниями и навыками, Cпециалисты компании учтут все
+                ваши пожелания и предложат на выбор варианты готовых решений. Наши клиенты останются
+                довольны результатом работы.</p>
+
+            <p class="section-title__paragraf-text">Компания гарантирует качество предоставляемых
+                услуг и работ в установленные договарами сроки.</p>
+
+            <p class="section-title__paragraf-text">Свяжитесь с нами, и мы претворим вашу идею в
+                жизнь.</p>
+        </div>
+        <!-- /.modal-advantages-description -->
+    </div>
+    <!-- /.modal-sect-advantages -->
+
+
+    <div class="scroll-up">
+        <!-- <svg class="scroll-up__svg" viewBox="-2 -2 52 52">
+            <path class="scroll-up__svg-path"
+                d="M24,0
+                    a24,24 0 0,1 0,48
+                    a24,24 0 0,1 0,-48"
+            />
+        </svg>  -->
+        <svg viewBox="-2 -2 54 54">
+            <rect class="scroll-up__svg-path" x="0" y="0" rx="5" ry="5" width="50" height="50" stroke="black"  stroke-width="5"/>
+        </svg>
+    </div>
+    <!-- /.scroll-up -->
+
+
+    <script src="libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="libs/swiper/swiper-bundle.min.js"></script>
+    <script src="libs/micromodal/micromodal.min.js"></script>
+    <!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
+    <script src="js/main.js"></script>
+    <script src="js/slide-header-menu.js"></script>
+    <script src="js/slide-home.js"></script>
+    <!-- <script src="js/slide-home_2.js"></script> -->
+    <script src="js/home-callback-list-text.js"></script>
+    <script src="js/slide-bestworks.js"></script>
+    <script src="js/list-bestworks.js"></script>
+    <script src="js/advantages-slider.js"></script>
+    <script src="js/modal-slide-bestworks.js"></script>
+    <script src="js/modal-slide-bestworks-auto.js"></script>
+    <script src="js/menu-toggle.js"></script>
+    <!-- форма заявки -->
+    <script src="js/sweetalert.min.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/btn-up.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqWywZylX_0A2f7JWgQo3N9_4WaOirjXI&callback=initMap&v=weekly"
+        async defer>
+        </script>
+
+</body>
+
+</html>
